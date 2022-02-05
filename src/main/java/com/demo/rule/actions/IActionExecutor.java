@@ -1,6 +1,9 @@
 package com.demo.rule.actions;
-@FunctionalInterface
+
+import com.demo.rule.model.PaymentRequest;
+import lombok.Data;
+
+
 public interface IActionExecutor {
-    String packageType=null;
-     public boolean execute(String actionType);
+     public boolean execute(PaymentRequest request,String type);
 }

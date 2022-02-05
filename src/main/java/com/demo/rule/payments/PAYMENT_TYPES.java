@@ -1,0 +1,5 @@
+package com.demo.rule.payments;
+
+public enum PAYMENT_TYPES {
+    PHYSICAL_PRODUCT,BOOK,MEMBERSHIP_UPGRADE,MEMBERSHIP_ACTIVATE,VIDEO
+}
