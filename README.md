@@ -57,5 +57,6 @@ curl --location --request POST 'http://localhost:9090/api/v1/payment' \
 
 
 
+**Test Coverage Report**
 
-
+<img width="402" alt="Coverage" src="https://user-images.githubusercontent.com/40517925/152660123-a6aaec04-a2dd-40b2-9485-7df4af614ceb.PNG">
